@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    background: unset;
+    border: 0;
+    list-style: none;
+}
+body {
+    height: 100vw;
+    overflow: hidden;
+}
+h1 {
+    text-align: center;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-blue {
+    background-color: blue;
+}
+.bg-gold {
+    background-color: gold;
+}
+.bg-suprise {
+    background-color:hotpink
+}
+.w-full {
+    width: 100%;
+}
+.w-200 {
+    width: 200px;
+}
+.h-80 {
+    height: 80px;
+}
+.p-4 {
+    padding: 1rem;
+}
+.pl-4 {
+    padding-left: 1rem;
+}
+.transition {
+    transition: transform 1s ease-in-out;    
+}
+.transform-translate {
+    transform: translateX(-200px);
+}
+.transform-translate-open {
+    transform: translateX(0px);
+}

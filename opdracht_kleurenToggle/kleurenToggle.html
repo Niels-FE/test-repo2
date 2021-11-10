@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>KleurenToggle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="assets/styles/kleuren.css" />
+</head>
+
+<body class="bg-white">
+    <header>
+        <div class="bg-white w-full h-80">
+            <button id="menu-button">
+                <img class="h-80" src="assets/images/hamburger.png" alt="hamburger" />
+            </button>
+        </div>
+        <div id="hidden-menu" class="w-200 transform-translate transition">
+            <ul class="p-4">
+                <li class="p-4 bg-white">
+                    <input type="radio" id="bg-white" name="colors" value="white" checked />
+                    <label for="bg-white" class="pl-4">White</label>
+                </li>
+                <li class="p-4 bg-red">
+                    <input type="radio" id="bg-red" name="colors" value="red" />
+                    <label for="bg-red" class="pl-4">Red</label>
+                </li>
+                <li class="p-4 bg-blue">
+                    <input type="radio" id="bg-blue" name="colors" value="blue" />
+                    <label for="bg-blue" class="pl-4">Blue</label>
+                </li>
+                <li class="p-4 bg-gold">
+                    <input type="radio" id="bg-gold" name="colors" value="gold" />
+                    <label for="bg-gold" class="pl-4">Gold</label>
+                </li>
+                <li id="random" class="p-4 bg-gold">
+                    <input type="radio" data-id="bg-random" id="bg-random" name="colors" value="random" />
+                    <label for="bg-random" data-id="bg-random" class="pl-4">Random???</label>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+    <main>
+        <h1>White background!</h1>
+    </main>
+    <footer>
+        <script defer src="assets/scripts/kleurenToggle.js"></script>
+    </footer>
+</body>
+
+</html>
